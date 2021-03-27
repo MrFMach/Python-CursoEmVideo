@@ -1,0 +1,20 @@
+n1 = int(input('first number >> int: '))
+n2 = int(input('second number >> int: '))
+n3 = float(input('third number >> float: '))
+print('+ ', n1 + n2)
+print('- ', n1 - n2)
+print('- ', n2 - n1)
+print('* ', n1 * n2)
+print('/ ', n1 / n2)
+print('/ ', n2 / n1)
+print('// ', n3 // n1)
+print('% ', n3 % n2)
+print('** ', n1 ** n2)
+print('pow ', pow(n1, n2))
+print('square root ', n1 ** (1/2))
+print('cubic root ', n1 ** (1/3))
+
+# other forms
+
+print('Hello' * 10)
+print('=|' * 30)

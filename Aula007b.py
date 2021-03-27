@@ -1,0 +1,7 @@
+name = input('Enter a name: ')
+print('Nice to meet you {}!'.format(name))
+print('Nice to meet you {:20}!'.format(name))
+print('Nice to meet you {:>20}!'.format(name))
+print('Nice to meet you {:<20}!'.format(name))
+print('Nice to meet you {:^20}!'.format(name))
+print('Nice to meet you {:.^20}!'.format(name))
