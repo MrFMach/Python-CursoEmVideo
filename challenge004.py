@@ -1,4 +1,7 @@
-v1 = input('enter a value: ')
+
+# Challenge 004 - Examining a value
+
+v1 = input('Type something: ')
 print('Primitive type: ', type(v1))
 print('is numeric? ', v1.isnumeric())
 print('is alnum? ', v1.isalnum())
